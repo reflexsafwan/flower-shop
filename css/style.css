@@ -23,7 +23,9 @@
 .leftside p{
     font-size: 25px;
     margin-bottom: 20px;
+    color:rgb(171, 166, 166)
 }
+
 .leftside button{
 padding: 15px 20px;
 font-size: 20px;
@@ -31,4 +33,79 @@ background-color: rgb(222, 85, 201);
 border:none;
 border-radius: 10px;
 color:white
+}
+.rightside img{
+    height: 90vh;
+}
+/* featured area css */
+
+.featured-flower{
+    padding: 50px 300px;
+}
+.featured-header{
+    text-align: center;
+}
+.featured-header h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.featured-header p{
+    font-size: 25px;
+    margin-bottom: 50px;
+    color:rgb(171, 166, 166)
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    background-color: rgba(167, 33, 98, 0.15)
+    ;
+    border-radius: 300px 300px 0px 0px;
+    width: 33%;
+    text-align: center;
+    height:500px;
+    /* display: flex;
+    justify-content: center;
+    align-items: end; */
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.card-2{
+    background-color: rgba(5, 151, 160, 0.15)
+    ;
+    border-radius: 300px 300px 0px 0px;
+    width: 33%;
+    text-align: center;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.card-3{
+    background-color: rgba(71, 125, 17, 0.15)
+    ;
+    border-radius: 300px 300px 0px 0px;
+    width: 33%;
+    text-align: center;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.link a{
+    color: black;
 }
