@@ -7,8 +7,8 @@
     list-style: none;
 }
 
-.container{
-    background-color: rgb(126, 103, 126);
+.header-container{
+    background-color: rgba(229, 84, 115, 0.1);
     height: 90vh;
     padding:10px;
     display: flex;
@@ -251,6 +251,79 @@ margin-bottom: 100px;
     font-weight: 700;
     line-height: normal;
 }
+
+/* review area css */
+.container{
+    margin-bottom: 100px;
+}
+.reveiw_text_area{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.reveiw_text_area h1{
+    color:#005FAC;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.reveiw_text_area h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.presons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.person_one{
+    width: 30%;
+}
+.person_one_img img{
+    width: 200px;
+    height: 250px;
+    padding-right: 10px;
+}
+.person_one_details{
+    display:flex;
+    justify-content:start;
+}
+.person_one_opinion{
+    text-align: justify;
+    font-size: 15px;
+}
+.person_two{
+    width:30%
+}
+.person_two_img img{
+    width: 200px;
+    height: 250px;
+    padding-right: 10px;
+}
+.person_two_details{
+    display: flex;
+    justify-content: start;
+}
+.person_two_opinion{
+    text-align: justify;
+    font-size: 15px;
+}
+.person_three{
+    width:30% 
+}
+.person_three_img img{
+    width: 200px;
+    height: 250px;
+    padding-right: 10px;
+}
+.person-three_details{
+    display: flex;
+    justify-content: start; 
+}
+.person_three_opinion{
+    text-align: justify;
+    font-size: 15px; 
+}
+
 
 
 /* footer area css start */
