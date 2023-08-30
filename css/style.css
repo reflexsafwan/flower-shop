@@ -203,3 +203,51 @@ line-height: 30px;
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* contact area css start */
+
+.contact-area{
+    background-image: url(/images/Rectangle\ 9.png);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vh;
+background-repeat: no-repeat;
+margin-right: 14%;
+margin-left: 14%;
+margin-bottom: 100px;
+
+}
+.email-area{
+    text-align: center;
+}
+.email-area h1{
+   font-size: 50px;
+   font-weight: 800px;
+   margin-bottom: 20px;
+}
+.email-area p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #272727;
+}
+.email-area input{
+    width: 700px;
+    border-radius: 8px;
+    background: #fff;
+    padding: 22px;
+    border: none;
+}
+.email-area button{
+    border: none;
+    margin-left: 5px;
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #e55473;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
