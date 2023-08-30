@@ -178,3 +178,28 @@ color:white
     padding: 20px 43px;
     margin-left: 150px;
 }
+
+
+/* instagram css start */
+
+.instagram-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-bottom: 100px;
+}
+.instagram-content{
+    margin-bottom: 50px;
+}
+.instagram-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.instagram-content p{
+    font-size: 20px;
+line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
