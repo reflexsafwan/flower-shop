@@ -109,3 +109,38 @@ color:white
 .link a{
     color: black;
 }
+
+/* service area css */
+
+.service-area-container{
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 150px;
+   
+}
+
+.service-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.service-area img{
+    width: 150px;
+}
+.service-image{
+    margin-top: 86px 0px;
+    padding: 30px;
+}
+.service-area p{
+    font-size: 30px;
+    margin-top: 24px;
+    color: rgba(39, 39, 39, 0.8);
+    text-align: center;
+    line-height: 35px;
+    font-weight: 600;
+}
+
